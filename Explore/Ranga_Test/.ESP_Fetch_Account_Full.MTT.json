@@ -1,0 +1,110 @@
+{
+  "objectInfo" : {
+    "id" : "1Rfcmqi940Cfxxl6I2DjaW",
+    "name" : "ESP_Fetch_Account_Full",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580Z0000000000UW"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This fetch is to only bring in SF ID and Owner Id from Salesforce to Teradata for Account Team Member Insert /Delete for sharing",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "1JoLsTeJKE9kbGJbyIsKYl",
+    "name" : "TPT_ESP_STG_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000004M"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Teradata TPT Connection for ESP STG DB",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "an9kHmWKrX6fkzEboFdNOr",
+    "name" : "devwn10167",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R5825000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3JKkfb6HkQHbN9k84u4LEN",
+    "name" : "SF_ESP_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B000000000008"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Salesforce connection to ESP Dev environment",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "kOFZPImE9CtkuyoLKmovsu",
+    "name" : "ESP_Fetch_Account_Full",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001G7"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This fetch is to only bring in SF ID and Owner Id from Salesforce to Teradata for Account Team Member Insert /Delete for sharing",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Ranga_Test"
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "kOFZPImE9CtkuyoLKmovsu",
+    "name" : "ESP_Fetch_Account_Full",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001G7"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This fetch is to only bring in SF ID and Owner Id from Salesforce to Teradata for Account Team Member Insert /Delete for sharing",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ ]
+}

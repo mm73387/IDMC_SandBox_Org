@@ -1,0 +1,110 @@
+{
+  "objectInfo" : {
+    "id" : "7UngsfOgxuCfaKjvDajQeH",
+    "name" : "ESP_Fetch_User_Full",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580Z0000000000UV"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This task will fetch all the records from Salesforce User to Teradata",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "fWvDGks5PKglt0KbKZJwiA",
+    "name" : "ESP_Fetch_User_Full",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001G6"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This will fetch all the users to Teradata from Salesforce. ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Ranga_Test"
+  }, {
+    "id" : "1JoLsTeJKE9kbGJbyIsKYl",
+    "name" : "TPT_ESP_STG_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000004M"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Teradata TPT Connection for ESP STG DB",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "an9kHmWKrX6fkzEboFdNOr",
+    "name" : "devwn10167",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R5825000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3JKkfb6HkQHbN9k84u4LEN",
+    "name" : "SF_ESP_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B000000000008"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Salesforce connection to ESP Dev environment",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

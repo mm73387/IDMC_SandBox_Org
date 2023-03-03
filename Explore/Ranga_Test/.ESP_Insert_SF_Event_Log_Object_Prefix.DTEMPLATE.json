@@ -1,0 +1,67 @@
+{
+  "objectInfo" : {
+    "id" : "7jQZ7SVLTO3hUpS4mTOymd",
+    "name" : "ESP_Insert_SF_Event_Log_Object_Prefix",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001GN"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "1PiVRYwhoyDlFvTXitxJU8",
+    "name" : "ESP_FlatFileDirectory_UNIX_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000003Q"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0pgzbQcfd75fB8AFYdsVI9",
+    "name" : "TD_ESP_STG_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B000000000027"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Teradata Connection to DEV ESP Staging database",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

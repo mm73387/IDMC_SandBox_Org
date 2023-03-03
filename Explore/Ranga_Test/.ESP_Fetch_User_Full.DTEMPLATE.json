@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "fWvDGks5PKglt0KbKZJwiA",
+    "name" : "ESP_Fetch_User_Full",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001G6"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This will fetch all the users to Teradata from Salesforce. ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,67 @@
+{
+  "objectInfo" : {
+    "id" : "gNfjC4l2aqkkeJopzofpwk",
+    "name" : "ESP_Insert_SF_Event_Log_URI_With_Users",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001GL"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "1JoLsTeJKE9kbGJbyIsKYl",
+    "name" : "TPT_ESP_STG_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000004M"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Teradata TPT Connection for ESP STG DB",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "1PiVRYwhoyDlFvTXitxJU8",
+    "name" : "ESP_FlatFileDirectory_UNIX_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000003Q"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

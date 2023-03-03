@@ -1,0 +1,110 @@
+{
+  "objectInfo" : {
+    "id" : "f0Y3mC5H1ihg1GDVmpZV2E",
+    "name" : "ESP_Fetch_AccountTeamMember_Full",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580Z0000000000UY"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This is a full fetch of AccountTeamMember objct to Teradata and is getting used for AccountTeamMember Insert Delete mapping",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "78dCWD9DVGZhiQtzbzLsq9",
+    "name" : "TPT_ESP_STG_PREPROD",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B00000000004X"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Teradata TPT Connection for ESP STG DB",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5mJpDSi6ZQbhnAxHK8T7OL",
+    "name" : "isinfclpp101",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R582500000000000F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "f1qBq7nz0K9bIYiI8VEFyn",
+    "name" : "ESP_Fetch_AccountTeamMember_Full",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R58170000000001G8"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This is a full fetch of AccountTeamMember objct to Teradata and is getting used for AccountTeamMember Insert Delete mapping",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Ranga_Test"
+  }, {
+    "id" : "5sToL9vGGSqdznalJU7zep",
+    "name" : "SF_ESP_PreProd",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "000R580B000000000044"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Salesforce connection to ESP PreProd environment",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
